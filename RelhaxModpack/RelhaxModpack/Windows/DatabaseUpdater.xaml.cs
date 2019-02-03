@@ -15,6 +15,9 @@ using System.Net;
 using System.IO;
 using Microsoft.Win32;
 using System.Xml;
+using Discord;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace RelhaxModpack.Windows
 {
@@ -23,6 +26,7 @@ namespace RelhaxModpack.Windows
     /// </summary>
     public partial class DatabaseUpdater : RelhaxWindow
     {
+        private Discord.WebSocket.DiscordSocketClient DiscordClient;
         #region Constants
         //get the sensitive constants (like this test below) from the PrivateStuff class
         private string TestPasswordRef = PrivateStuff.thing;
@@ -1452,5 +1456,140 @@ namespace RelhaxModpack.Windows
             ReportProgress("Done");
         }
         #endregion
+
+        private async void UpdateDatabaseStep9_BETA_Click(object sender, RoutedEventArgs e)
+        {
+            //send discord message
+            //DiscordClient = new Discord.WebSocket.DiscordSocketClient();
+            //DiscordClient.Ready += Client_Ready;
+            //await DiscordClient.LoginAsync(TokenType.Bot, PrivateStuff.DiscordBotClientID);
+            //await DiscordClient.StartAsync();
+            //send test forums message
+            //https://stackoverflow.com/questions/10292730/httpclient-getasync-with-network-credentials
+            CookieContainer container = new CookieContainer();
+            using (HttpClientHandler handler = new HttpClientHandler()
+            {
+                AllowAutoRedirect = true,
+                UseCookies = true,
+                CookieContainer = container
+            })
+            using (HttpClient client = new HttpClient(handler))
+            {
+                //LogOutput.Text = await client.GetStringAsync("https://forums.relhaxmodpack.com/index.php?action=login2&sa=check&member=5");
+
+
+                client.BaseAddress = new Uri("https://forums.relhaxmodpack.com");
+                //https://stackoverflow.com/questions/44076962/how-do-i-set-a-default-user-agent-on-an-httpclient
+                //https://stackoverflow.com/questions/10679214/how-do-you-set-the-content-type-header-for-an-httpclient-request
+                //setup headers
+                //testFourmsPost.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
+                client.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("gzip"));
+                client.DefaultRequestHeaders.AcceptEncoding.Add(new StringWithQualityHeaderValue("deflate"));
+                client.DefaultRequestHeaders.AcceptLanguage.Add(new StringWithQualityHeaderValue("en"));
+                client.DefaultRequestHeaders.AcceptLanguage.Add(new StringWithQualityHeaderValue("en-US"));
+                //testFourmsPost.DefaultRequestHeaders.Referrer = new Uri("http://forums.relhaxmodpack.com/index.php?topic=69.0");
+                client.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36");
+                //go to default url first
+                LogOutput.Text = await client.GetStringAsync("https://forums.relhaxmodpack.com/index.php");
+
+                //setup request
+                string postRequest = "/index.php?action=login2";
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, postRequest);
+
+                FormUrlEncodedContent content = new FormUrlEncodedContent(new[]
+                {
+                    new KeyValuePair<string, string>("user", PrivateStuff.ForumsUsername),
+                    new KeyValuePair<string, string>("passwrd", PrivateStuff.ForumsPassword),
+                    new KeyValuePair<string, string>("cookielength", "60")
+                });
+
+                HttpResponseMessage requst = await client.PostAsync(postRequest, content);
+                LogOutput.Text = await requst.Content.ReadAsStringAsync();
+
+                HttpWebRequest requestt = (HttpWebRequest)WebRequest.Create("https://forums.relhaxmodpack.com/index.php?action=login2&sa=check&member=5");
+                requestt.AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate;
+                requestt.CookieContainer = container;
+                using (HttpWebResponse response = (HttpWebResponse)await requestt.GetResponseAsync())
+                using (Stream stream = response.GetResponseStream())
+                using (StreamReader reader = new StreamReader(stream))
+                {
+                    LogOutput.Text = await reader.ReadToEndAsync();
+                }
+            }
+        }
+        public static CookieContainer login(string url, string username, string password)
+        {
+            if (url.Length == 0 || username.Length == 0 || password.Length == 0)
+            {
+                Console.WriteLine("Information missing");
+                return null;
+            }
+
+            CookieContainer myContainer = new CookieContainer();
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+            request.CookieContainer = new CookieContainer();
+
+            // Set type to POST
+            request.Method = "POST";
+            request.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36";
+            request.ContentType = "application/x-www-form-urlencoded";
+
+            // Build the new header, this isn't a multipart/form, so it's very simple
+            StringBuilder data = new StringBuilder();
+            data.Append("username=" + Uri.EscapeDataString(username));
+            data.Append("&passwrd=" + Uri.EscapeDataString(password));
+            data.Append("&action=login2");
+
+            // Create a byte array of the data we want to send
+            byte[] byteData = UTF8Encoding.UTF8.GetBytes(data.ToString());
+
+            // Set the content length in the request headers
+            request.ContentLength = byteData.Length;
+
+            Stream postStream;
+            try
+            {
+                postStream = request.GetRequestStream();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Login - " + e.Message.ToString() + " (GRS)");
+                return null;
+            }
+
+            // Write data
+            postStream.Write(byteData, 0, byteData.Length);
+
+            HttpWebResponse response;
+            try
+            {
+                response = (HttpWebResponse)request.GetResponse();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Login - " + e.Message.ToString() + " (GR)");
+                return null;
+            }
+
+            // Store the cookies
+            foreach (Cookie c in response.Cookies)
+            {
+                myContainer.Add(c);
+            }
+
+            return myContainer;
+        }
+
+        private async Task Client_Ready()
+        {
+            //Discord.WebSocket.SocketChannel modChannelTest = DiscordClient.GetChannel(PrivateStuff.DiscordAnnouncementsChannelID);
+            //if (modChannelTest is Discord.WebSocket.SocketTextChannel channel)
+            //{
+            //    await channel.SendMessageAsync("If you can see this, it means automated database update messages work!");
+            //}
+            await DiscordClient.StopAsync();
+        }
     }
 }

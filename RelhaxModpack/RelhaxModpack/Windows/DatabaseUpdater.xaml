@@ -48,6 +48,7 @@
                             <Button x:Name="UpdateDatabaseStep9_EU_ENG" Content="EU ENG"  Margin="5,0,0,0" Click="UpdateDatabaseStep9_EU_ENG_Click"/>
                             <Button x:Name="UpdateDatabaseStep9_EU_GER" Content="EU GER"  Margin="5,0,0,0" Click="UpdateDatabaseStep9_EU_GER_Click"/>
                         </StackPanel>
+                        <Button x:Name="UpdateDatabaseStep9_BETA" Content="Test batch post" Click="UpdateDatabaseStep9_BETA_Click"/>
                     </StackPanel>
                     <ProgressBar x:Name="TotalUpdateProgressBar" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="22"/>
                     <ProgressBar x:Name="FileDownloadProgresBar" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="15" Margin="0,0,0,25" Visibility="Hidden"/>
