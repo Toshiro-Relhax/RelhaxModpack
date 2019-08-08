@@ -1175,7 +1175,7 @@ namespace RelhaxModpack
             English.Add("DiagnosticUtilitiesButton", "Diagnostic utilities");
             German.Add("DiagnosticUtilitiesButton", "Diagnosedienstprogramme");
             Polish.Add("DiagnosticUtilitiesButton", "Narzędzia diagnostyczne");
-            French.Add("DiagnosticUtilitiesButton", "Utilitaires de diagnostique");
+            French.Add("DiagnosticUtilitiesButton", "Utilitaire de diagnostique");
             Russian.Add("DiagnosticUtilitiesButton", "Диагностика");
 
             //Component: DiagnosticUtilitiesButtonDescription
