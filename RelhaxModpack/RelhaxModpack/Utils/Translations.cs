@@ -3165,7 +3165,7 @@ namespace RelhaxModpack
             English.Add("ViewNewsOnGoogleTranslate", "View this on Google Translate");
             German.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
             Polish.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
-            French.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
+            French.Add("ViewNewsOnGoogleTranslate", "Voir ça sur Google Traduction");
             Russian.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
             #endregion
 
@@ -3268,7 +3268,7 @@ namespace RelhaxModpack
             English.Add("upgradingStructure", "Upgrading V1 file and folder structure");
             German.Add("upgradingStructure", "Upgrad der V1 Datei- und Ordnerstruktur");
             Polish.Add("upgradingStructure", TranslationNeeded);
-            French.Add("upgradingStructure", TranslationNeeded);
+            French.Add("upgradingStructure", "Mise à niveau des fichiers de la V1 and de la structure des fichiers");
             Russian.Add("upgradingStructure", TranslationNeeded);
             #endregion
 
@@ -3278,7 +3278,7 @@ namespace RelhaxModpack
             English.Add("selectLocationToExport", "Select the folder to export the mod installation into");
             German.Add("selectLocationToExport", "Wähle den Ordner für den Export der Mod-Installation");
             Polish.Add("selectLocationToExport", TranslationNeeded);
-            French.Add("selectLocationToExport", TranslationNeeded);
+            French.Add("selectLocationToExport", "Sélectionnez le fichier d'exportation de l'installation du mod");
             Russian.Add("selectLocationToExport", TranslationNeeded);
 
             //Component: ExportSelectVersionHeader
@@ -3286,7 +3286,7 @@ namespace RelhaxModpack
             English.Add("ExportSelectVersionHeader", "Please select the version of the WoT client you want to export for");
             German.Add("ExportSelectVersionHeader", "Bitte wähle die WoT Klientversion, für die du den Export durchführen willst");
             Polish.Add("ExportSelectVersionHeader", TranslationNeeded);
-            French.Add("ExportSelectVersionHeader", TranslationNeeded);
+            French.Add("ExportSelectVersionHeader", "Veuillez sélectionner la version du client de WoT que vous souhaitez exporter" );
             Russian.Add("ExportSelectVersionHeader", TranslationNeeded);
 
             //Component: ExportContinueButton
@@ -3294,7 +3294,7 @@ namespace RelhaxModpack
             English.Add("ExportContinueButton", "Continue");
             German.Add("ExportContinueButton", "Fortfahren");
             Polish.Add("ExportContinueButton", TranslationNeeded);
-            French.Add("ExportContinueButton", TranslationNeeded);
+            French.Add("ExportContinueButton", "Continuer");
             Russian.Add("ExportContinueButton", TranslationNeeded);
 
             //Component: ExportCancelButton
@@ -3302,7 +3302,7 @@ namespace RelhaxModpack
             English.Add("ExportCancelButton", "Cancel");
             German.Add("ExportCancelButton", "Abbrechen");
             Polish.Add("ExportCancelButton", TranslationNeeded);
-            French.Add("ExportCancelButton", TranslationNeeded);
+            French.Add("ExportCancelButton", "Annuler");
             Russian.Add("ExportCancelButton", TranslationNeeded);
 
             //Component: ExportModeMajorVersion
@@ -3310,7 +3310,7 @@ namespace RelhaxModpack
             English.Add("ExportModeMajorVersion", "Online folder version");
             German.Add("ExportModeMajorVersion", "Version des Online Ordners");
             Polish.Add("ExportModeMajorVersion", TranslationNeeded);
-            French.Add("ExportModeMajorVersion", TranslationNeeded);
+            French.Add("ExportModeMajorVersion", "Version des fichiers en ligne");
             Russian.Add("ExportModeMajorVersion", TranslationNeeded);
 
             //Component: ExportModeMinorVersion
@@ -3318,7 +3318,7 @@ namespace RelhaxModpack
             English.Add("ExportModeMinorVersion", "WoT version");
             German.Add("ExportModeMinorVersion", "WoT Version");
             Polish.Add("ExportModeMinorVersion", TranslationNeeded);
-            French.Add("ExportModeMinorVersion", TranslationNeeded);
+            French.Add("ExportModeMinorVersion", "Version de WoT");
             Russian.Add("ExportModeMinorVersion", TranslationNeeded);
             #endregion
 
@@ -3328,7 +3328,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningTitle", "WoT is Running");
             German.Add("WoTRunningTitle", "WoT wird gerade ausgeführt.");
             Polish.Add("WoTRunningTitle", "WoT jest uruchomiony");
-            French.Add("WoTRunningTitle", "WoT est en cours d`éxecution");
+            French.Add("WoTRunningTitle", "WoT est en cours d'éxécution");
             Russian.Add("WoTRunningTitle", "World of Tanks запущен");
 
             //Component: WoTRunningHeader
@@ -3336,7 +3336,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningHeader", "It looks like your WoT install is currently open. Please close it before we can proceed");
             German.Add("WoTRunningHeader", "Es sieht so aus als wäre Wot geöffnet. Bitte schließe das Programm um fortzufahren");
             Polish.Add("WoTRunningHeader", TranslationNeeded);
-            French.Add("WoTRunningHeader", TranslationNeeded);
+            French.Add("WoTRunningHeader", "Il semblerait que votre client WoT soit ouvert. Veuillez le fermer avant que nous commencions");
             Russian.Add("WoTRunningHeader", TranslationNeeded);
 
             //Component: WoTRunningCancelInstallButton
@@ -3344,7 +3344,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningCancelInstallButton", "Cancel Installation");
             German.Add("WoTRunningCancelInstallButton", "Abbruch der Installation");
             Polish.Add("WoTRunningCancelInstallButton", TranslationNeeded);
-            French.Add("WoTRunningCancelInstallButton", TranslationNeeded);
+            French.Add("WoTRunningCancelInstallButton", "Annuler l'installation");
             Russian.Add("WoTRunningCancelInstallButton", TranslationNeeded);
 
             //Component: WoTRunningRetryButton
@@ -3352,7 +3352,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningRetryButton", "Re-detect");
             German.Add("WoTRunningRetryButton", "Neuerkennung");
             Polish.Add("WoTRunningRetryButton", TranslationNeeded);
-            French.Add("WoTRunningRetryButton", TranslationNeeded);
+            French.Add("WoTRunningRetryButton", "Re-détecter");
             Russian.Add("WoTRunningRetryButton", TranslationNeeded);
 
             //Component: WoTRunningForceCloseButton
@@ -3360,7 +3360,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningForceCloseButton", "Force close the game");
             German.Add("WoTRunningForceCloseButton", "Erzwinge das Schließen des Spiels");
             Polish.Add("WoTRunningForceCloseButton", TranslationNeeded);
-            French.Add("WoTRunningForceCloseButton", TranslationNeeded);
+            French.Add("WoTRunningForceCloseButton", "Forcer la fermeture du jeu");
             Russian.Add("WoTRunningForceCloseButton", TranslationNeeded);
             #endregion
 
@@ -3370,7 +3370,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationHeader", "The scaling value has changed. Would you like to keep it?");
             German.Add("ScalingConfirmationHeader", "Der Wert für die Skalierung hat sich geändert. Willst du dies beibehalten?");
             Polish.Add("ScalingConfirmationHeader", TranslationNeeded);
-            French.Add("ScalingConfirmationHeader", TranslationNeeded);
+            French.Add("ScalingConfirmationHeader", "La valeur de mise à l'échelle à changée. Voulez vous la garder ?");
             Russian.Add("ScalingConfirmationHeader", TranslationNeeded);
 
             //Component: ScalingConfirmationRevertTime
@@ -3378,7 +3378,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationRevertTime", "Reverting in {0} Second(s)");
             German.Add("ScalingConfirmationRevertTime", "Rückgängig machen in {0} Sekunde(n)");
             Polish.Add("ScalingConfirmationRevertTime", TranslationNeeded);
-            French.Add("ScalingConfirmationRevertTime", TranslationNeeded);
+            French.Add("ScalingConfirmationRevertTime", "annulation dans {0} Seconde(s)");
             Russian.Add("ScalingConfirmationRevertTime", TranslationNeeded);
 
             //Component: ScalingConfirmationKeep
@@ -3386,7 +3386,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationKeep", "Keep");
             German.Add("ScalingConfirmationKeep", "Behalten");
             Polish.Add("ScalingConfirmationKeep", TranslationNeeded);
-            French.Add("ScalingConfirmationKeep", TranslationNeeded);
+            French.Add("ScalingConfirmationKeep", "Garder");
             Russian.Add("ScalingConfirmationKeep", TranslationNeeded);
 
             //Component: ScalingConfirmationDiscard
@@ -3394,7 +3394,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationDiscard", "Discard");
             German.Add("ScalingConfirmationDiscard", "Verwerfen");
             Polish.Add("ScalingConfirmationDiscard", TranslationNeeded);
-            French.Add("ScalingConfirmationDiscard", TranslationNeeded);
+            French.Add("ScalingConfirmationDiscard", "Jeter");
             Russian.Add("ScalingConfirmationDiscard", TranslationNeeded);
             #endregion
 
