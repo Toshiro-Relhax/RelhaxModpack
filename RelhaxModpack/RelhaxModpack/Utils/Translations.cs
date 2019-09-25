@@ -357,7 +357,7 @@ namespace RelhaxModpack
             English.Add("allFiles", "All files");
             German.Add("allFiles", "Alle Dateien");
             Polish.Add("allFiles", TranslationNeeded);
-            French.Add("allFiles", TranslationNeeded);
+            French.Add("allFiles", "Tous les fichiers");
             Russian.Add("allFiles", TranslationNeeded);
 
             //Component: GoogleTranslateLanguageKey
@@ -399,7 +399,7 @@ namespace RelhaxModpack
             English.Add("appFailedCreateLogfile", "The application failed to open a logfile. Check your file permissions or move the application to a folder with write access.");
             German.Add("appFailedCreateLogfile", "Das Programm konnte eine Log-Datei nicht öffnen. Überprüfe die Berechtigungen oder verschiebe das Programm in einen Ordner mit Schreibrechten.");
             Polish.Add("appFailedCreateLogfile", TranslationNeeded);
-            French.Add("appFailedCreateLogfile", TranslationNeeded);
+            French.Add("appFailedCreateLogfile", "L'application a échouer à ouvrir le fichier de log.Vérifions antivirus/Pare-feu ou déplacer l'application dans un fichier avec les bonnes autorisations");
             Russian.Add("appFailedCreateLogfile", TranslationNeeded);
 
             //Component: failedToParse
@@ -407,7 +407,7 @@ namespace RelhaxModpack
             English.Add("failedToParse", "Failed to parse the file");
             German.Add("failedToParse", "Die Datei konnte nicht verarbeitet werden");
             Polish.Add("failedToParse", TranslationNeeded);
-            French.Add("failedToParse", TranslationNeeded);
+            French.Add("failedToParse", "Echec de l'analyse du fichier");
             Russian.Add("failedToParse", TranslationNeeded);
             #endregion
 
@@ -986,7 +986,7 @@ namespace RelhaxModpack
             English.Add("AdvancedInstallationProgressText", "Show advanced installation progress window");
             German.Add("AdvancedInstallationProgressText", "Erweitertes Installationsfenster");
             Polish.Add("AdvancedInstallationProgressText", TranslationNeeded);
-            French.Add("AdvancedInstallationProgressText", TranslationNeeded);
+            French.Add("AdvancedInstallationProgressText", "Voir la fenêtre d'installation avancée");
             Russian.Add("AdvancedInstallationProgressText", TranslationNeeded);
 
             //Component: AdvancedInstallationProgressDescription
@@ -1531,7 +1531,7 @@ namespace RelhaxModpack
             English.Add("failedVerifyFolderStructure", "The application failed to create the required folder structure. Check your file permissions or move the application to a folder with write access.");
             German.Add("failedVerifyFolderStructure", "Das Programm konnte die erforderliche Ordnerstruktur nicht erstellen. Bitte überprüfe die Berechtigungen oder verschiebe das Programm an einen Ort mit Schreibrechten.");
             Polish.Add("failedVerifyFolderStructure", TranslationNeeded);
-            French.Add("failedVerifyFolderStructure", TranslationNeeded);
+            French.Add("failedVerifyFolderStructure", "L'application à échouer à créer la structure du fichier requis. Vérfier votre antivirus et votre pare-feu ou déplacer votre application dans un fichier avec les droits");
             Russian.Add("failedVerifyFolderStructure", TranslationNeeded);
 
             //Component: failedToExtractUpdateArchive
@@ -1539,7 +1539,7 @@ namespace RelhaxModpack
             English.Add("failedToExtractUpdateArchive", "The application failed to extract the update files. Check your file permissions and antivirus application.");
             German.Add("failedToExtractUpdateArchive", "Das Programm konnte die Updatedateien nicht entpacken. Bitte überprüfe die Berechtigungen und/oder deine Anti-Virus-Software.");
             Polish.Add("failedToExtractUpdateArchive", TranslationNeeded);
-            French.Add("failedToExtractUpdateArchive", TranslationNeeded);
+            French.Add("failedToExtractUpdateArchive", "L'application à échouer à extraire les fichiers de mise à jour. Vérifier votre pare-feu et antivirus" );
             Russian.Add("failedToExtractUpdateArchive", TranslationNeeded);
 
             //Component: downloadingUpdate
@@ -1547,7 +1547,7 @@ namespace RelhaxModpack
             English.Add("downloadingUpdate", "Downloading application update");
             German.Add("downloadingUpdate", "Lade Programmupdate");
             Polish.Add("downloadingUpdate", TranslationNeeded);
-            French.Add("downloadingUpdate", TranslationNeeded);
+            French.Add("downloadingUpdate", "Téléchargement de la mise à jour de l'application");
             Russian.Add("downloadingUpdate", TranslationNeeded);
 
             //Component: autoOneclickSelectionFileNotExist
@@ -1555,7 +1555,7 @@ namespace RelhaxModpack
             English.Add("autoOneclickSelectionFileNotExist", "The supplied path to the selection file does not exist");
             German.Add("autoOneclickSelectionFileNotExist", "Der angegebene Pfad zur Auswahldatei existiert nicht.");
             Polish.Add("autoOneclickSelectionFileNotExist", TranslationNeeded);
-            French.Add("autoOneclickSelectionFileNotExist", TranslationNeeded);
+            French.Add("autoOneclickSelectionFileNotExist", "Le chemin fourni au fichier sélectionner n'existe pas");
             Russian.Add("autoOneclickSelectionFileNotExist", TranslationNeeded);
 
             //Component: noAutoInstallWithBeta
@@ -1563,7 +1563,7 @@ namespace RelhaxModpack
             English.Add("noAutoInstallWithBeta", "Auto install mode cannot be used with the beta database");
             German.Add("noAutoInstallWithBeta", "Die automatische Installation kann nicht gemeinsam mit der Beta-Datenbank genutzt werden.");
             Polish.Add("noAutoInstallWithBeta", TranslationNeeded);
-            French.Add("noAutoInstallWithBeta", TranslationNeeded);
+            French.Add("noAutoInstallWithBeta", "le mode Installation automatique ne peut pas être utiliser avec la version béta de la base de données" );
             Russian.Add("noAutoInstallWithBeta", TranslationNeeded);
 
             //Component: ColorDumpSaveFileDialog
@@ -1571,7 +1571,7 @@ namespace RelhaxModpack
             English.Add("ColorDumpSaveFileDialog", "Select where to save the colors customization file");
             German.Add("ColorDumpSaveFileDialog", "Wähle, wo die Farbdatei gespeichert werden soll");
             Polish.Add("ColorDumpSaveFileDialog", TranslationNeeded);
-            French.Add("ColorDumpSaveFileDialog", TranslationNeeded);
+            French.Add("ColorDumpSaveFileDialog", "Sélectionner où sauvegarder le fichier de customisation des couleurs");
             Russian.Add("ColorDumpSaveFileDialog", TranslationNeeded);
 
             //Component: loadingBranches
@@ -1579,7 +1579,7 @@ namespace RelhaxModpack
             English.Add("loadingBranches", "Loading branches");
             German.Add("loadingBranches", "Lade Branch");
             Polish.Add("loadingBranches", TranslationNeeded);
-            French.Add("loadingBranches", TranslationNeeded);
+            French.Add("loadingBranches", "Chargement des branches");
             Russian.Add("loadingBranches", TranslationNeeded);
             #endregion
 
@@ -1841,7 +1841,7 @@ namespace RelhaxModpack
             English.Add("failedLoadSelection", "Failed to load selection");
             German.Add("failedLoadSelection", "Konnte Auswahl nicht laden");
             Polish.Add("failedLoadSelection", TranslationNeeded);
-            French.Add("failedLoadSelection", TranslationNeeded);
+            French.Add("failedLoadSelection", "Echec du chargement de la sélection");
             Russian.Add("failedLoadSelection", TranslationNeeded);
 
             //Component: unknownselectionFileFormat
@@ -1849,7 +1849,7 @@ namespace RelhaxModpack
             English.Add("unknownselectionFileFormat", "Unknown selection file version");
             German.Add("unknownselectionFileFormat", "Unbekannte Version der Auswahldatei");
             Polish.Add("unknownselectionFileFormat", TranslationNeeded);
-            French.Add("unknownselectionFileFormat", TranslationNeeded);
+            French.Add("unknownselectionFileFormat", "Version des fichiers sélectionnés inconnues");
             Russian.Add("unknownselectionFileFormat", TranslationNeeded);
 
             //Component: ExpandAllButton
@@ -1896,7 +1896,7 @@ namespace RelhaxModpack
             English.Add("disabled", "disabled");
             German.Add("disabled", "deaktiviert");
             Polish.Add("disabled", TranslationNeeded);
-            French.Add("disabled", TranslationNeeded);
+            French.Add("disabled", "Désactivé");
             Russian.Add("disabled", TranslationNeeded);
 
             //Component: invisible
@@ -1904,7 +1904,7 @@ namespace RelhaxModpack
             English.Add("invisible", "invisible");
             German.Add("invisible", "unsichtbar");
             Polish.Add("invisible", TranslationNeeded);
-            French.Add("invisible", TranslationNeeded);
+            French.Add("invisible", "Invisible");
             Russian.Add("invisible", TranslationNeeded);
             #endregion
 
@@ -1962,7 +1962,7 @@ namespace RelhaxModpack
             English.Add("ViewUpdateNotesOnGoogleTranslate", "View this on Google Translate");
             German.Add("ViewUpdateNotesOnGoogleTranslate", TranslationNeeded);
             Polish.Add("ViewUpdateNotesOnGoogleTranslate", TranslationNeeded);
-            French.Add("ViewUpdateNotesOnGoogleTranslate", TranslationNeeded);
+            French.Add("ViewUpdateNotesOnGoogleTranslate", "Voir ça sur google traduction");
             Russian.Add("ViewUpdateNotesOnGoogleTranslate", TranslationNeeded);
             #endregion
 
@@ -2084,7 +2084,7 @@ namespace RelhaxModpack
             English.Add("failedToDownload1", "Failed to download the package");
             German.Add("failedToDownload1", "Konnte Paket nicht herunterladen");
             Polish.Add("failedToDownload1", TranslationNeeded);
-            French.Add("failedToDownload1", TranslationNeeded);
+            French.Add("failedToDownload1", "Le téléchargement du pack a échoué);
             Russian.Add("failedToDownload1", TranslationNeeded);
 
             //Component: failedToDownload2
@@ -2092,7 +2092,7 @@ namespace RelhaxModpack
             English.Add("failedToDownload2", "Would you like to retry the download, abort the installation, or continue?");
             German.Add("failedToDownload2", "Willst du den Download wiederholen, die Installation abbrechen oder weitermachen?");
             Polish.Add("failedToDownload2", TranslationNeeded);
-            French.Add("failedToDownload2", TranslationNeeded);
+            French.Add("failedToDownload2", "Voulez vous réessayer le téléchargement, annuler, ou continuer ?");
             Russian.Add("failedToDownload2", TranslationNeeded);
 
             //Component: 
@@ -2274,7 +2274,7 @@ namespace RelhaxModpack
             English.Add("uninstallFail", "The uninstallation failed. You could try another uninstallation mode or submit a bug report.");
             German.Add("uninstallFail", "Das Deinstallieren war nicht erfolgreich. Bitte wiederhole den Vorgang oder sende einen Fehlerbericht.");
             Polish.Add("uninstallFail", TranslationNeeded);
-            French.Add("uninstallFail", TranslationNeeded);
+            French.Add("uninstallFail", "La désinstallation a échoué. Vous pouvez réessayer ou envoyer un signalement du bug.");
             Russian.Add("uninstallFail", TranslationNeeded);
 
             //Component: 
@@ -2397,7 +2397,7 @@ namespace RelhaxModpack
             English.Add("couldTryBeta", "If a game patch was recently released, the team is working on supporting it. You could try using the beta database.");
             German.Add("couldTryBeta", TranslationNeeded);
             Polish.Add("couldTryBeta", TranslationNeeded);
-            French.Add("couldTryBeta", TranslationNeeded);
+            French.Add("couldTryBeta", "Si un patch du jeu a récemment été effectuer, l'équipe travaille sur la mise à jour du modpack. Vous pouvez essayer d'utiliser la base de données beta");
             Russian.Add("couldTryBeta", TranslationNeeded);
 
             //Component: missingMSVCPLibrariesHeader
@@ -2405,7 +2405,7 @@ namespace RelhaxModpack
             English.Add("missingMSVCPLibrariesHeader", "Failed to load required libraries");
             German.Add("missingMSVCPLibrariesHeader", TranslationNeeded);
             Polish.Add("missingMSVCPLibrariesHeader", TranslationNeeded);
-            French.Add("missingMSVCPLibrariesHeader", TranslationNeeded);
+            French.Add("missingMSVCPLibrariesHeader", "Echec du chargement des bibliothèques requises");
             Russian.Add("missingMSVCPLibrariesHeader", TranslationNeeded);
 
             //Component: missingMSVCPLibraries
@@ -2413,7 +2413,7 @@ namespace RelhaxModpack
             English.Add("missingMSVCPLibraries", "The contour icon image processing libraries failed to load. This could indicate you are missing a required Microsoft dll package.");
             German.Add("missingMSVCPLibraries", TranslationNeeded);
             Polish.Add("missingMSVCPLibraries", TranslationNeeded);
-            French.Add("missingMSVCPLibraries", TranslationNeeded);
+            French.Add("missingMSVCPLibraries", "Les chargement des bibliothèques de contour d'image d'icône de contour a échoué. Il se peut que vous manquiez d'un pack dll Microsoft");
             Russian.Add("missingMSVCPLibraries", TranslationNeeded);
 
             //Component: openLinkToMSVCP
@@ -2421,7 +2421,7 @@ namespace RelhaxModpack
             English.Add("openLinkToMSVCP", "Would you like to open your browser to the package download page?");
             German.Add("openLinkToMSVCP", TranslationNeeded);
             Polish.Add("openLinkToMSVCP", TranslationNeeded);
-            French.Add("openLinkToMSVCP", TranslationNeeded);
+            French.Add("openLinkToMSVCP", "Voulez-vous ouvrir votre navigateur pour télécharger le pack ?");
             Russian.Add("openLinkToMSVCP", TranslationNeeded);
 
             //Component: notifying the user the change won't take effect until application restart
@@ -2485,7 +2485,7 @@ namespace RelhaxModpack
             English.Add("installZipFileEntry", "File entry");
             German.Add("installZipFileEntry", TranslationNeeded);
             Polish.Add("installZipFileEntry", TranslationNeeded);
-            French.Add("installZipFileEntry", TranslationNeeded);
+            French.Add("installZipFileEntry", "Entrée de fichier);
             Russian.Add("installZipFileEntry", TranslationNeeded);
 
             //Component: installExtractingCompletedThreads
@@ -2493,7 +2493,7 @@ namespace RelhaxModpack
             English.Add("installExtractingCompletedThreads", "Completed extraction threads");
             German.Add("installExtractingCompletedThreads", TranslationNeeded);
             Polish.Add("installExtractingCompletedThreads", TranslationNeeded);
-            French.Add("installExtractingCompletedThreads", TranslationNeeded);
+            French.Add("installExtractingCompletedThreads", "Fils d'extraction terminés");
             Russian.Add("installExtractingCompletedThreads", TranslationNeeded);
 
             //Component: installExtractingOfGroup
@@ -2501,7 +2501,7 @@ namespace RelhaxModpack
             English.Add("installExtractingOfGroup", "of install group");
             German.Add("installExtractingOfGroup", TranslationNeeded);
             Polish.Add("installExtractingOfGroup", TranslationNeeded);
-            French.Add("installExtractingOfGroup", TranslationNeeded);
+            French.Add("installExtractingOfGroup", "du groupe d'installation");
             Russian.Add("installExtractingOfGroup", TranslationNeeded);
 
             //Component: extractingUserMod
@@ -2736,7 +2736,7 @@ namespace RelhaxModpack
             English.Add("installFailed", "The installation failed at step");
             German.Add("installFailed", "Die Installation misslang bei Schritt");
             Polish.Add("installFailed", TranslationNeeded);
-            French.Add("installFailed", TranslationNeeded);
+            French.Add("installFailed", "L'installation à échoué à l'étape");
             Russian.Add("installFailed", TranslationNeeded);
             #endregion
 
@@ -2932,7 +2932,7 @@ namespace RelhaxModpack
             English.Add("clearingDownloadCache", "Clearing download cache");
             German.Add("clearingDownloadCache", TranslationNeeded);
             Polish.Add("clearingDownloadCache", TranslationNeeded);
-            French.Add("clearingDownloadCache", TranslationNeeded);
+            French.Add("clearingDownloadCache", "Suppression du cache de téléchargement");
             Russian.Add("clearingDownloadCache", TranslationNeeded);
 
             //Component: failedToClearDownloadCache
@@ -2940,7 +2940,7 @@ namespace RelhaxModpack
             English.Add("failedToClearDownloadCache", "Failed to clear download cache");
             German.Add("failedToClearDownloadCache", TranslationNeeded);
             Polish.Add("failedToClearDownloadCache", TranslationNeeded);
-            French.Add("failedToClearDownloadCache", TranslationNeeded);
+            French.Add("failedToClearDownloadCache", "Echec de la suppression du cache de téléchargement");
             Russian.Add("failedToClearDownloadCache", TranslationNeeded);
 
             //Component: cleaningDownloadCacheComplete
@@ -2948,7 +2948,7 @@ namespace RelhaxModpack
             English.Add("cleaningDownloadCacheComplete", "Download cache cleared");
             German.Add("cleaningDownloadCacheComplete", TranslationNeeded);
             Polish.Add("cleaningDownloadCacheComplete", TranslationNeeded);
-            French.Add("cleaningDownloadCacheComplete", TranslationNeeded);
+            French.Add("cleaningDownloadCacheComplete", "Cache de téléchargement supprimé);
             Russian.Add("cleaningDownloadCacheComplete", TranslationNeeded);
 
             //Component: clearingDownloadCacheDatabase
@@ -2956,7 +2956,7 @@ namespace RelhaxModpack
             English.Add("clearingDownloadCacheDatabase", "Deleting xml database cache file");
             German.Add("clearingDownloadCacheDatabase", TranslationNeeded);
             Polish.Add("clearingDownloadCacheDatabase", TranslationNeeded);
-            French.Add("clearingDownloadCacheDatabase", TranslationNeeded);
+            French.Add("clearingDownloadCacheDatabase", "Suppression des fichiers XML");
             Russian.Add("clearingDownloadCacheDatabase", TranslationNeeded);
 
             //Component: failedToClearDownloadCacheDatabase
@@ -2964,7 +2964,7 @@ namespace RelhaxModpack
             English.Add("failedToClearDownloadCacheDatabase", "Failed to delete xml database cache file");
             German.Add("failedToClearDownloadCacheDatabase", TranslationNeeded);
             Polish.Add("failedToClearDownloadCacheDatabase", TranslationNeeded);
-            French.Add("failedToClearDownloadCacheDatabase", TranslationNeeded);
+            French.Add("failedToClearDownloadCacheDatabase", "Echec de la suppression des fichiers XML");
             Russian.Add("failedToClearDownloadCacheDatabase", TranslationNeeded);
 
             //Component: cleaningDownloadCacheDatabaseComplete
@@ -2972,7 +2972,7 @@ namespace RelhaxModpack
             English.Add("cleaningDownloadCacheDatabaseComplete", "Xml database cache file deleted");
             German.Add("cleaningDownloadCacheDatabaseComplete", TranslationNeeded);
             Polish.Add("cleaningDownloadCacheDatabaseComplete", TranslationNeeded);
-            French.Add("cleaningDownloadCacheDatabaseComplete", TranslationNeeded);
+            French.Add("cleaningDownloadCacheDatabaseComplete", "Le cache des fichiers XML a été supprimer");
             Russian.Add("cleaningDownloadCacheDatabaseComplete", TranslationNeeded);
 
             //Component: ChangeInstall
@@ -3004,7 +3004,7 @@ namespace RelhaxModpack
             English.Add("selectFilesToInclude", "Select files to include in the bug report");
             German.Add("selectFilesToInclude", "Wähle Dateien um diese dem Fehlerbericht hinzuzufügen");
             Polish.Add("selectFilesToInclude", TranslationNeeded);
-            French.Add("selectFilesToInclude", TranslationNeeded);
+            French.Add("selectFilesToInclude", "Sélectionner les fichiers à inclure dans le signalement de bug");
             Russian.Add("selectFilesToInclude", TranslationNeeded);
 
             //Component: TestLoadImageLibraries
@@ -3012,7 +3012,7 @@ namespace RelhaxModpack
             English.Add("TestLoadImageLibraries", "Test loading the atlas image processing libraries");
             German.Add("TestLoadImageLibraries", TranslationNeeded);
             Polish.Add("TestLoadImageLibraries", TranslationNeeded);
-            French.Add("TestLoadImageLibraries", TranslationNeeded);
+            French.Add("TestLoadImageLibraries", "Test du chargement des bibliothèques de traitement d'images atlas");
             Russian.Add("TestLoadImageLibraries", TranslationNeeded);
 
             //Component: loadingAtlasImageLibraries
@@ -3020,7 +3020,7 @@ namespace RelhaxModpack
             English.Add("loadingAtlasImageLibraries", "Loading atlas image processing libraries");
             German.Add("loadingAtlasImageLibraries", TranslationNeeded);
             Polish.Add("loadingAtlasImageLibraries", TranslationNeeded);
-            French.Add("loadingAtlasImageLibraries", TranslationNeeded);
+            French.Add("loadingAtlasImageLibraries", "Chargement des bibliothèques de traitement d'images atlas");
             Russian.Add("loadingAtlasImageLibraries", TranslationNeeded);
 
             //Component: loadingAtlasImageLibrariesSuccess
@@ -3028,7 +3028,7 @@ namespace RelhaxModpack
             English.Add("loadingAtlasImageLibrariesSuccess", "Successfully loaded atlas image processing libraries");
             German.Add("loadingAtlasImageLibrariesSuccess", TranslationNeeded);
             Polish.Add("loadingAtlasImageLibrariesSuccess", TranslationNeeded);
-            French.Add("loadingAtlasImageLibrariesSuccess", TranslationNeeded);
+            French.Add("loadingAtlasImageLibrariesSuccess", "Chargement des bibliothèqes de traitement d'images atlas réussi");
             Russian.Add("loadingAtlasImageLibrariesSuccess", TranslationNeeded);
 
             //Component: loadingAtlasImageLibrariesFail
@@ -3036,7 +3036,7 @@ namespace RelhaxModpack
             English.Add("loadingAtlasImageLibrariesFail", "Failed to load atlas image processing libraries");
             German.Add("loadingAtlasImageLibrariesFail", TranslationNeeded);
             Polish.Add("loadingAtlasImageLibrariesFail", TranslationNeeded);
-            French.Add("loadingAtlasImageLibrariesFail", TranslationNeeded);
+            French.Add("loadingAtlasImageLibrariesFail", "Echec du chargement des bibliothèques de traitement d'images atlas");
             Russian.Add("loadingAtlasImageLibrariesFail", TranslationNeeded);
             #endregion
 
@@ -3046,7 +3046,7 @@ namespace RelhaxModpack
             English.Add("noDescription", "No description provided");
             German.Add("noDescription", "Keine Beschreibung verfügbar");
             Polish.Add("noDescription", "Nie podano opisu");
-            French.Add("noDescription", "NPas de description fournie");
+            French.Add("noDescription", "Pas de description fournie");
             Russian.Add("noDescription", "Описание отсутствует");
 
             //Component: noUpdateInfo
@@ -3102,7 +3102,7 @@ namespace RelhaxModpack
             English.Add("popular", "popular");
             German.Add("popular", "beliebt");
             Polish.Add("popular", TranslationNeeded);
-            French.Add("popular", TranslationNeeded);
+            French.Add("popular", "Populaire");
             Russian.Add("popular", TranslationNeeded);
 
             //Component: previewEncounteredError
@@ -3110,7 +3110,7 @@ namespace RelhaxModpack
             English.Add("previewEncounteredError", "The preview window encountered an error. Failed to display preview.");
             German.Add("previewEncounteredError", "Das Vorschaufenster stellte einen Fehler fest und kann die Vorschau nicht laden");
             Polish.Add("previewEncounteredError", TranslationNeeded);
-            French.Add("previewEncounteredError", TranslationNeeded);
+            French.Add("previewEncounteredError", "La précédente fenêtre a rencontré une erreur. Echec de l'affichage de l'aperçu");
             Russian.Add("previewEncounteredError", TranslationNeeded);
             #endregion
 
@@ -3317,7 +3317,7 @@ namespace RelhaxModpack
             English.Add("ViewNewsOnGoogleTranslate", "View this on Google Translate");
             German.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
             Polish.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
-            French.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
+            French.Add("ViewNewsOnGoogleTranslate", "Voir ça sur Google Traduction");
             Russian.Add("ViewNewsOnGoogleTranslate", TranslationNeeded);
             #endregion
 
@@ -3420,7 +3420,7 @@ namespace RelhaxModpack
             English.Add("upgradingStructure", "Upgrading V1 file and folder structure");
             German.Add("upgradingStructure", "Upgrad der V1 Datei- und Ordnerstruktur");
             Polish.Add("upgradingStructure", TranslationNeeded);
-            French.Add("upgradingStructure", TranslationNeeded);
+            French.Add("upgradingStructure", "Mise à jour des fichiers de la V1 et de leurs structure");
             Russian.Add("upgradingStructure", TranslationNeeded);
             #endregion
 
@@ -3430,7 +3430,7 @@ namespace RelhaxModpack
             English.Add("selectLocationToExport", "Select the folder to export the mod installation into");
             German.Add("selectLocationToExport", "Wähle den Ordner für den Export der Mod-Installation");
             Polish.Add("selectLocationToExport", TranslationNeeded);
-            French.Add("selectLocationToExport", TranslationNeeded);
+            French.Add("selectLocationToExport", "Sélectionner le dossier ou vous souhaiter exporter l'installation");
             Russian.Add("selectLocationToExport", TranslationNeeded);
 
             //Component: ExportSelectVersionHeader
@@ -3438,7 +3438,7 @@ namespace RelhaxModpack
             English.Add("ExportSelectVersionHeader", "Please select the version of the WoT client you want to export for");
             German.Add("ExportSelectVersionHeader", "Bitte wähle die WoT Klientversion, für die du den Export durchführen willst");
             Polish.Add("ExportSelectVersionHeader", TranslationNeeded);
-            French.Add("ExportSelectVersionHeader", TranslationNeeded);
+            French.Add("ExportSelectVersionHeader", "Merci de sélectionner la version du client de WoT pour la quelle vous souhaitez exporter");
             Russian.Add("ExportSelectVersionHeader", TranslationNeeded);
 
             //Component: ExportContinueButton
@@ -3446,7 +3446,7 @@ namespace RelhaxModpack
             English.Add("ExportContinueButton", "Continue");
             German.Add("ExportContinueButton", "Fortfahren");
             Polish.Add("ExportContinueButton", TranslationNeeded);
-            French.Add("ExportContinueButton", TranslationNeeded);
+            French.Add("ExportContinueButton", "Continuer");
             Russian.Add("ExportContinueButton", TranslationNeeded);
 
             //Component: ExportCancelButton
@@ -3454,7 +3454,7 @@ namespace RelhaxModpack
             English.Add("ExportCancelButton", "Cancel");
             German.Add("ExportCancelButton", "Abbrechen");
             Polish.Add("ExportCancelButton", TranslationNeeded);
-            French.Add("ExportCancelButton", TranslationNeeded);
+            French.Add("ExportCancelButton", "Annuler");
             Russian.Add("ExportCancelButton", TranslationNeeded);
 
             //Component: ExportModeMajorVersion
@@ -3462,7 +3462,7 @@ namespace RelhaxModpack
             English.Add("ExportModeMajorVersion", "Online folder version");
             German.Add("ExportModeMajorVersion", "Version des Online Ordners");
             Polish.Add("ExportModeMajorVersion", TranslationNeeded);
-            French.Add("ExportModeMajorVersion", TranslationNeeded);
+            French.Add("ExportModeMajorVersion", "Versions des fichiers en ligne");
             Russian.Add("ExportModeMajorVersion", TranslationNeeded);
 
             //Component: ExportModeMinorVersion
@@ -3470,7 +3470,7 @@ namespace RelhaxModpack
             English.Add("ExportModeMinorVersion", "WoT version");
             German.Add("ExportModeMinorVersion", "WoT Version");
             Polish.Add("ExportModeMinorVersion", TranslationNeeded);
-            French.Add("ExportModeMinorVersion", TranslationNeeded);
+            French.Add("ExportModeMinorVersion", "Version de WoT");
             Russian.Add("ExportModeMinorVersion", TranslationNeeded);
             #endregion
 
@@ -3488,7 +3488,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningHeader", "It looks like your WoT install is currently open. Please close it before we can proceed");
             German.Add("WoTRunningHeader", "Es sieht so aus als wäre Wot geöffnet. Bitte schließe das Programm um fortzufahren");
             Polish.Add("WoTRunningHeader", TranslationNeeded);
-            French.Add("WoTRunningHeader", TranslationNeeded);
+            French.Add("WoTRunningHeader", "Il semblerait que votre installation de WoT soit ouverte. Veuillez la fermer avant que nous procédions");
             Russian.Add("WoTRunningHeader", TranslationNeeded);
 
             //Component: WoTRunningCancelInstallButton
@@ -3496,7 +3496,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningCancelInstallButton", "Cancel Installation");
             German.Add("WoTRunningCancelInstallButton", "Abbruch der Installation");
             Polish.Add("WoTRunningCancelInstallButton", TranslationNeeded);
-            French.Add("WoTRunningCancelInstallButton", TranslationNeeded);
+            French.Add("WoTRunningCancelInstallButton", "Annuler l'installation);
             Russian.Add("WoTRunningCancelInstallButton", TranslationNeeded);
 
             //Component: WoTRunningRetryButton
@@ -3504,7 +3504,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningRetryButton", "Re-detect");
             German.Add("WoTRunningRetryButton", "Neuerkennung");
             Polish.Add("WoTRunningRetryButton", TranslationNeeded);
-            French.Add("WoTRunningRetryButton", TranslationNeeded);
+            French.Add("WoTRunningRetryButton", "Re-détecter");
             Russian.Add("WoTRunningRetryButton", TranslationNeeded);
 
             //Component: WoTRunningForceCloseButton
@@ -3512,7 +3512,7 @@ namespace RelhaxModpack
             English.Add("WoTRunningForceCloseButton", "Force close the game");
             German.Add("WoTRunningForceCloseButton", "Erzwinge das Schließen des Spiels");
             Polish.Add("WoTRunningForceCloseButton", TranslationNeeded);
-            French.Add("WoTRunningForceCloseButton", TranslationNeeded);
+            French.Add("WoTRunningForceCloseButton", "Forcer la fermeture du jeu");
             Russian.Add("WoTRunningForceCloseButton", TranslationNeeded);
             #endregion
 
@@ -3522,7 +3522,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationHeader", "The scaling value has changed. Would you like to keep it?");
             German.Add("ScalingConfirmationHeader", "Der Wert für die Skalierung hat sich geändert. Willst du dies beibehalten?");
             Polish.Add("ScalingConfirmationHeader", TranslationNeeded);
-            French.Add("ScalingConfirmationHeader", TranslationNeeded);
+            French.Add("ScalingConfirmationHeader", "La valeur de mise à l'échelle a changé. Voulez vous la garder ?");
             Russian.Add("ScalingConfirmationHeader", TranslationNeeded);
 
             //Component: ScalingConfirmationRevertTime
@@ -3530,7 +3530,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationRevertTime", "Reverting in {0} Second(s)");
             German.Add("ScalingConfirmationRevertTime", "Rückgängig machen in {0} Sekunde(n)");
             Polish.Add("ScalingConfirmationRevertTime", TranslationNeeded);
-            French.Add("ScalingConfirmationRevertTime", TranslationNeeded);
+            French.Add("ScalingConfirmationRevertTime", "Retour dans {0} Seconde(s)");
             Russian.Add("ScalingConfirmationRevertTime", TranslationNeeded);
 
             //Component: ScalingConfirmationKeep
@@ -3538,7 +3538,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationKeep", "Keep");
             German.Add("ScalingConfirmationKeep", "Behalten");
             Polish.Add("ScalingConfirmationKeep", TranslationNeeded);
-            French.Add("ScalingConfirmationKeep", TranslationNeeded);
+            French.Add("ScalingConfirmationKeep", "Garder");
             Russian.Add("ScalingConfirmationKeep", TranslationNeeded);
 
             //Component: ScalingConfirmationDiscard
@@ -3546,7 +3546,7 @@ namespace RelhaxModpack
             English.Add("ScalingConfirmationDiscard", "Discard");
             German.Add("ScalingConfirmationDiscard", "Verwerfen");
             Polish.Add("ScalingConfirmationDiscard", TranslationNeeded);
-            French.Add("ScalingConfirmationDiscard", TranslationNeeded);
+            French.Add("ScalingConfirmationDiscard", "Jeter");
             Russian.Add("ScalingConfirmationDiscard", TranslationNeeded);
             #endregion
 
